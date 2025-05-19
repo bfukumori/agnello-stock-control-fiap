@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
-import br.com.fiap.vinheriaagnello.ui.theme.VInheriaAgnelloTheme
+import br.com.fiap.vinheriaagnello.ui.theme.VinheriaAgnelloTheme
 import br.com.fiap.vinheriaagnello.view.ProdutoView
 import br.com.fiap.vinheriaagnello.view.ProdutoViewModel
 
@@ -17,7 +17,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            VInheriaAgnelloTheme {
+            VinheriaAgnelloTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     ProdutoView(
                         modifier = Modifier.padding(innerPadding),

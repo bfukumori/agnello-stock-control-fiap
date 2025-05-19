@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "VInheria Agnello"
+rootProject.name = "Vinheria Agnello"
 include(":app")
  
